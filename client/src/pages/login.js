@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import "../styles/RegisterStyles.css"
 
 
-// siam arefin     asdf asdf 
+
 
 const Login = () => {
 
