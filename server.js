@@ -17,11 +17,8 @@ app.use(express.json())
 app.use(moragan('dev'))
 
 
-app.get('/', (req , res )=> {
-    res.status(200).send({
-        Message:"server running",
-    });
-});
+//routes 
+app.use('/api/vi/user',require('./routes/userRoutes'));
 
 
 
